@@ -1,0 +1,1 @@
+export { SocialResponsibilitySection } from './social-responsibility';
