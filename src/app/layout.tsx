@@ -14,10 +14,10 @@ const SITE_URL = "https://estudioscerbo.com.ar";
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "Estudio Contable Scerbo | Asesoramiento Integral Personalized",
+    default: "Estudio Contable Scerbo | Asesoramiento Integral Personalizado",
     template: "%s | Estudio Contable Scerbo",
   },
-  description: "Estudio contable offering comprehensive accounting and business consulting services in Mar del Plata. Specializing in monotributistas, responsible entities, and business management.",
+    description: "Estudio contable que ofrece servicios integrales de contabilidad y consultoría empresarial en Mar del Plata. Especialistas en monotributistas, responsables inscriptos y gestión de sociedades.",
   keywords: [
     "estudio contable",
     "contador público",
@@ -53,8 +53,8 @@ export const metadata: Metadata = {
     locale: "es_AR",
     url: SITE_URL,
     siteName: "Estudio Contable Scerbo",
-    title: "Estudio Contable Scerbo | Asesoramiento Integral Personalized",
-    description: "Estudio contable offering comprehensive accounting and business consulting services in Mar del Plata. Specializing in monotributistas, responsible entities, and business management.",
+    title: "Estudio Contable Scerbo | Asesoramiento Integral Personalizado",
+  description: "Estudio contable que ofrece servicios integrales de contabilidad y consultoría empresarial en Mar del Plata. Especialistas en monotributistas, responsables inscriptos y gestión de sociedades.",
     images: [
       {
         url: "/logo-removebg.png",
@@ -66,8 +66,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Estudio Contable Scerbo | Asesoramiento Integral Personalized",
-    description: "Estudio contable offering comprehensive accounting and business consulting services in Mar del Plata.",
+    title: "Estudio Contable Scerbo | Asesoramiento Integral Personalizado",
+    description: "Estudio contable que ofrece servicios integrales de contabilidad y consultoría empresarial en Mar del Plata.",
     images: ["/logo-removebg.png"],
     creator: "@cdrapaulalscerbo",
   },
