@@ -53,14 +53,14 @@ export function ContactContent() {
             <div className="bg-[#F8F4FC] rounded-2xl p-8 border border-[#8acce8]/20">
               <h2 className="text-xl font-semibold text-[#2e2e74] mb-6">Información de contacto</h2>
               
-              {/* Logo without background */}
-              <div className="mb-6">
-                <div className="relative w-32 h-32">
+              {/* Logo - Modern circular redesign */}
+              <div className="mb-8 flex justify-center">
+                <div className="relative w-56 h-56 rounded-full bg-gradient-to-br from-[#8acce8]/20 via-[#F8F4FC] to-[#8acce8]/10 p-1 shadow-xl shadow-[#8acce8]/15 ring-1 ring-[#8acce8]/20">
                   <Image
-                    src="/logo-removebg.png"
+                    src="/paula.png"
                     alt="Estudio Scerbo"
                     fill
-                    className="object-contain"
+                    className="object-cover rounded-full"
                   />
                 </div>
               </div>
